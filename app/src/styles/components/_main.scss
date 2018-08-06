@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+.motto{
+    display: block;
+    background-color: paleturquoise;
+    border: 1px solid rgb(34, 32, 32);
+    padding: 10px 0;
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    line-height: 2.8rem;
+}
+.main-content{
+   padding: 20px;
+   display: flex;     
+}
+.items-block{
+    padding: 15px 20px;
+    flex-grow: 1;
+}
+

@@ -1,0 +1,53 @@
+.form{
+	width: 96%;
+	margin: 5rem auto;
+	padding: 0;
+	border: 1px solid #cccbcb;
+	border-radius: 4px;
+	h1{
+		text-align: center;
+		background: #f7f7f7;
+		padding: 20px;
+		margin: 0;
+		border-radius: 4px 4px 0 0;
+		color: #525253;
+		font-size: 25px;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+		margin: 2.5rem auto 1rem;
+		label{
+			margin-bottom: 10px;
+			margin-top: 15px;
+			color: #525253;
+		}
+		input,
+		select,
+		textarea {
+			border: 1px solid #cccbcb;
+			padding: 1.5rem;
+			background-color: #f7f7f7;
+			border-radius: 4px;
+		}
+		input[type=submit]{
+			background: #5B2434;
+			color: #fff;
+			font-weight: bold;
+			margin-top: 3rem;
+			cursor: pointer;
+			&:hover{
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+
+@media (min-width: $tablet){
+	.form{
+		width: 53rem;
+		margin: 10rem auto;
+	}
+}

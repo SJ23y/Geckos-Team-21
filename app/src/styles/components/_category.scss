@@ -1,0 +1,39 @@
+
+.category{
+    display: none;
+    width:25rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 4px 0 #ddd;
+}
+.sidebar-header{
+    font-size: 3rem;
+    padding:15px;
+    border-bottom: .3rem solid #ddd;
+    font-weight: bold;
+    margin: 0;
+}
+.category-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    .category-list__item{
+        display: block;
+        padding: 1.5rem 2.5rem;
+        border: 0;
+        border-bottom:1px solid #ddd;
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+    .active-category{
+        background: #5B2434;
+        color: #fff;
+        transition: linear 0.3s;
+    }
+
+}
+@media(min-width: $tablet){
+    .category{
+        display: block;
+    }
+}

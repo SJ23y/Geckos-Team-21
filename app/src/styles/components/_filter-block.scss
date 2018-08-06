@@ -1,0 +1,45 @@
+.items-filter{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid #cccbcb;
+    margin-bottom: 2rem;
+    input, select{
+        width: 100%;
+        border:1px solid #cccbcb;
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    button {
+        background: transparent;
+        cursor: pointer;
+        padding: 1rem;
+        margin: 1rem;
+        color: #000;
+        border: 1px solid #cccbcb;
+    }
+    .active-filter{
+        background: darkred;
+        color: #fff;
+    }
+}
+.sort-type{
+    background: transparent;
+    border:1px solid #cccbcb;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+@media(min-width: $mobile){
+    .items-filter{
+        input, select{
+            width: auto;
+        }
+    }
+}
+@media(min-width: $tablet){
+    .items-filter{
+        select{
+            display: none;
+        }
+    }
+}
